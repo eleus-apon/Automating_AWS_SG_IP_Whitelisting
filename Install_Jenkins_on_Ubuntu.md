@@ -87,3 +87,20 @@ In the terminal window, we need to use the cat command to display the password:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 Now we need to copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
+
+The next screen presents the option of installing suggested plugins or selecting specific plugins:
+![_Capture8](https://user-images.githubusercontent.com/35254833/101495026-34df7400-3992-11eb-939e-605fd5061614.PNG)
+
+We’ll click the Install suggested plugins option, which will immediately begin the installation process:
+![_Capture9](https://user-images.githubusercontent.com/35254833/101495086-4b85cb00-3992-11eb-997b-f8c9f7f6ae70.PNG)
+
+When the installation is complete, we’ll take a moment to create the user.
+![_Capture10](https://user-images.githubusercontent.com/35254833/101495164-6d7f4d80-3992-11eb-8277-560d44f7f8f5.PNG)
+
+We will now confirm either the domain name for our server or our server’s IP address:
+![_Capture11](https://user-images.githubusercontent.com/35254833/101495288-969fde00-3992-11eb-9215-e60a3826c0c8.PNG)
+
+After confirming the appropriate information, click Save and Finish. We will see a confirmation page confirming that “Jenkins is Ready!”:
+<img width="983" alt="_Capture12" src="https://user-images.githubusercontent.com/35254833/101495380-b6cf9d00-3992-11eb-8b14-7bb65aafd8a0.PNG">
+
+Click Start using Jenkins to visit the main Jenkins dashboard. At this point, we have completed a successful installation of Jenkins.
