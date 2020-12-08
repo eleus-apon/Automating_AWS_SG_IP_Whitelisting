@@ -7,11 +7,13 @@ To install Jenkins on our Ubuntu server Java 8 must be installed.
 ```
 sudo apt install openjdk-8-jdk
 ```
+![_Capture](https://user-images.githubusercontent.com/35254833/101490751-00b58480-398d-11eb-81fc-96d58258c573.PNG)
 
 We will also install git
 ```
 sudo apt install git
 ```
+![_Capture1](https://user-images.githubusercontent.com/35254833/101490863-2773bb00-398d-11eb-91e9-74630772677b.PNG)
 
 # Installing Jenkins
 ## Step 1
