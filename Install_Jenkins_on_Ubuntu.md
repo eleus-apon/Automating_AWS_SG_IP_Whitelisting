@@ -74,4 +74,16 @@ sudo ufw enable
 ```
 ![_Capture5](https://user-images.githubusercontent.com/35254833/101492887-7cb0cc00-398f-11eb-9c45-b3002f89c702.PNG)
 
+Now the port is open.
+![_Capture6](https://user-images.githubusercontent.com/35254833/101493178-e5984400-398f-11eb-9ef9-2c2a7abc2e8b.PNG)
 
+Now is our final step. To set up our installation, we need to visit Jenkins on its default port, 8080, using our server domain name or IP address: http://server_ip_or_domain:8080
+
+You will see the Unlock Jenkins screen, which displays the location of the initial password:
+![_Capture7](https://user-images.githubusercontent.com/35254833/101493585-77a04c80-3990-11eb-8674-2b63c11fa403.PNG)
+
+In the terminal window, we need to use the cat command to display the password:
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+Now we need to copy the 32-character alphanumeric password from the terminal and paste it into the Administrator password field, then click Continue.
